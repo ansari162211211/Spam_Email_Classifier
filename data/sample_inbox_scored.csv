@@ -1,0 +1,4 @@
+message,prediction,spam_score
+Win a free iPhone now click here,spam,0.9506693333206478
+Team meeting moved to 3pm tomorrow,ham,0.010410617780937428
+URGENT claim your lottery prize today,spam,0.9943115159465783
