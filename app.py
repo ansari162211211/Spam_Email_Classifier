@@ -17,7 +17,8 @@ st.caption("Naive Bayes & Linear SVM · TF-IDF · UCI SMS Spam dataset")
 
 @st.cache_resource
 def get_model():
-    return ensure_model()
+    with st.spinner("Loading model (first time may take ~30 seconds)..."):
+        return ensure_model()
 
 
 try:
